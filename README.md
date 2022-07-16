@@ -1,2 +1,0 @@
-# AnxiMode.github.io
-lol

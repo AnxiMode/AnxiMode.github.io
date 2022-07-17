@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/ranking_table.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center">AnxiMode's Top Anime Endings</h1>
+
+    <p id="csv-url" hidden>../data/anime_ed.csv</p>
+    <table >
+        <thead>
+            <th></th>
+            <th>Song</th>
+            <th>Anime (Number)</th>
+            <th></th>
+        </thead>
+        <tbody id="csv-table"></tbody>
+    </table> 
+
+    <script src="../scripts/csv_to_table.js"></script>
+</body>
+</html>
